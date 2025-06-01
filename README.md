@@ -2,7 +2,7 @@
 I've created a comprehensive Webpack boilerplate for multi-page website development with **Twig templating, Sass/SCSS, and Tailwind CSS v4**.
 
 ## Key Features:
-1. **Multi-page Setup:** Automatically detects .twig files in src/pages/ and generates corresponding HTML files
+1. **Multi-page Setup:** Automatically detects <code>.twig</code> files in <code>src/pages/</code> and generates corresponding HTML files
 2. **Twig Templating:** Full support with base templates, components, and data injection
 3. **Sass/SCSS:** Complete preprocessing with imports and custom variables
 4. **Tailwind CSS v4:** Latest alpha version with custom configuration
