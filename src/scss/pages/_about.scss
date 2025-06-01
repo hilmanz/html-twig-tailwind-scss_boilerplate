@@ -1,0 +1,26 @@
+// About page specific styles
+.about-page {
+  .page-header {
+    @apply bg-gradient-to-r from-gray-50 to-gray-100;
+  }
+  
+  .team-grid {
+    @apply grid gap-8 md:grid-cols-2 lg:grid-cols-3;
+  }
+  
+  .team-member {
+    @apply text-center bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
+    
+    .member-photo {
+      @apply w-24 h-24 mx-auto rounded-full mb-4 object-cover;
+    }
+    
+    .member-name {
+      @apply font-semibold text-lg mb-1;
+    }
+    
+    .member-role {
+      @apply text-gray-600 text-sm mb-3;
+    }
+  }
+}

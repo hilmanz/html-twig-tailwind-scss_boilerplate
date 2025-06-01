@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ title | default('My Website') }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ description | default('Welcome to my website') }}{% endblock %}">
+    
+    {% block head %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}">
+    {# {% include 'components/header.twig' %} #}
+    {% include '../../components/header.twig' %}
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    
+    {# {% include 'components/footer.twig' %} #}
+    {% include '../../components/footer.twig' %}
+    
+    {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,43 @@
+// Form components
+.form-group {
+  @apply mb-4;
+}
+
+.form-label {
+  @apply block text-sm font-medium text-gray-700 mb-1;
+}
+
+.form-input,
+.form-select,
+.form-textarea {
+  @apply w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 transition-colors duration-200;
+  
+  &::placeholder {
+    @apply text-gray-400;
+  }
+  
+  &:disabled {
+    @apply bg-gray-100 cursor-not-allowed;
+  }
+  
+  &.error {
+    @apply border-red-500 focus:ring-red-500 focus:border-red-500;
+  }
+}
+
+.form-textarea {
+  @apply resize-vertical min-h-[100px];
+}
+
+.form-checkbox,
+.form-radio {
+  @apply h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded;
+}
+
+.form-error {
+  @apply text-red-600 text-sm mt-1;
+}
+
+.form-help {
+  @apply text-gray-500 text-sm mt-1;
+}

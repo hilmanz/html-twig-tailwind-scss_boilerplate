@@ -1,0 +1,55 @@
+// Import Tailwind CSS
+@use 'tailwindcss';
+
+// Import custom styles
+@use 'base/variables';
+@use 'base/reset';
+@use 'base/typography';
+
+@use 'components/buttons';
+@use 'components/forms';
+@use 'components/navigation';
+
+@use 'layout/header';
+@use 'layout/footer';
+@use 'layout/grid';
+
+@use 'pages/home';
+@use 'pages/about';
+
+// Custom utilities and overrides
+.container {
+  @apply mx-auto px-4 max-w-7xl;
+}
+
+.btn {
+  @apply inline-block px-4 py-2 rounded font-medium transition-colors cursor-pointer;
+  
+  &-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+  
+  &-secondary {
+    @apply bg-gray-600 text-white hover:bg-gray-700;
+  }
+}
+
+.prose {
+  @apply max-w-none;
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-gray-900 mb-4;
+  }
+  
+  h1 { @apply text-4xl; }
+  h2 { @apply text-3xl; }
+  h3 { @apply text-2xl; }
+  
+  p {
+    @apply mb-4 text-gray-700 leading-relaxed;
+  }
+  
+  a {
+    @apply text-blue-600 hover:text-blue-800 transition-colors;
+  }
+}

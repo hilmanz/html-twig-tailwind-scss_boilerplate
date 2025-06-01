@@ -1,0 +1,24 @@
+{% extends 'templates/base.twig' %}
+
+{% block title %}About - My Website{% endblock %}
+{% block body_class %}about-page{% endblock %}
+
+{% block content %}
+<section class="page-header bg-gray-100 py-12">
+    <div class="container mx-auto px-4">
+        <h1 class="text-4xl font-bold text-center">About Us</h1>
+    </div>
+</section>
+
+<section class="content py-16">
+    <div class="container mx-auto px-4 max-w-4xl">
+        <div class="prose prose-lg mx-auto">
+            <h2>Our Story</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+            <h2>Our Mission</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+</section>
+{% endblock %}

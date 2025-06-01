@@ -1,0 +1,10 @@
+{
+  "siteName": "My Website",
+  "siteUrl": "https://mywebsite.com",
+  "description": "A modern multi-page website built with Webpack, Twig, and Tailwind CSS",
+  "author": "Your Name",
+  "social": {
+    "twitter": "https://twitter.com/yourhandle",
+    "github": "https://github.com/yourusername"
+  }
+}

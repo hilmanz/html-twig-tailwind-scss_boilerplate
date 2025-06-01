@@ -1,0 +1,25 @@
+// Home page specific styles
+.home-page {
+  .hero {
+    @apply relative overflow-hidden;
+    
+    &::before {
+      content: '';
+      @apply absolute inset-0 bg-black opacity-10;
+    }
+    
+    .hero-content {
+      @apply relative z-10;
+    }
+  }
+  
+  .features {
+    .feature-card {
+      @apply bg-white border border-gray-200 hover:shadow-lg transition-shadow duration-300;
+      
+      &:hover {
+        transform: translateY(-2px);
+      }
+    }
+  }
+}

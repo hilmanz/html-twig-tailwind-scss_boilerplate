@@ -1,0 +1,32 @@
+// Footer styles
+.footer {
+  @apply bg-gray-800 text-white;
+  
+  .footer-section {
+    @apply space-y-4;
+    
+    h3, h4 {
+      @apply text-white font-semibold;
+    }
+    
+    p {
+      @apply text-gray-300 leading-relaxed;
+    }
+    
+    ul li {
+      @apply mb-2;
+      
+      a {
+        @apply text-gray-300 hover:text-white transition-colors duration-200;
+      }
+    }
+  }
+  
+  .social-links {
+    @apply flex space-x-4;
+    
+    a {
+      @apply text-gray-400 hover:text-white transition-colors duration-200;
+    }
+  }
+}
