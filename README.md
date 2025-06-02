@@ -40,16 +40,16 @@ The boilerplate includes a well-organized structure with:
 
 
 ## Quick Start:
-Copy all the files to your project directory
-Run npm install
-Run npm run dev for development
-Run npm run build for production
+1. Copy all the files to your project directory
+2. Run <code>npm install</code>
+3. Run <code>npm run dev</code> for development
+4. Run <code>npm run build</code> for production
 
 ### The webpack configuration automatically handles:
-Page detection from src/pages/*.twig
-Asset bundling and optimization
-CSS and JS minification
-Content hashing for cache busting
-Source maps for debugging
+* Page detection from <code>src/pages/*.twig</code>
+* Asset bundling and optimization
+* CSS and JS minification
+* Content hashing for cache busting
+* Source maps for debugging
 
-You can start adding new pages immediately by creating .twig files in the src/pages/ directory - they'll automatically be built into corresponding HTML files!
+You can start adding new pages immediately by creating <code>.twig</code> files in the <code>src/pages/</code> directory - they'll automatically be built into corresponding HTML files!
