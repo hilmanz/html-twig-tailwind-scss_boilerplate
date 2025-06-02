@@ -1,4 +1,4 @@
-# twig - html - scss - tailwindcss boilerplate
+# twig - html - scss - tailwindcss - js boilerplate
 I've created a comprehensive Webpack boilerplate for multi-page website development with **Twig templating, Sass/SCSS, and Tailwind CSS v4**.
 
 ## Key Features:
