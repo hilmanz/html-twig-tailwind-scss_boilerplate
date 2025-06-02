@@ -10,23 +10,23 @@ I've created a comprehensive Webpack boilerplate for multi-page website developm
 6. **Asset Management:** Automatic handling of images, fonts, and other assets
 
 ## Build Output:
-Development: Unminified files with source maps and hot reload
-Production: Minified HTML, CSS, and JS with content hashing for cache busting
+* **Development:** Unminified files with source maps and hot reload
+* **Production:** Minified HTML, CSS, and JS with content hashing for cache busting
 
 ## File Structure:
 The boilerplate includes a well-organized structure with:
-Templates and components for reusability
-SCSS architecture with base, components, layout, and page-specific styles
-Modular JavaScript with separate utility modules
-Global data file for site-wide variables
-Asset directories for images and fonts
+* Templates and components for reusability
+* SCSS architecture with base, components, layout, and page-specific styles
+* Modular JavaScript with separate utility modules
+* Global data file for site-wide variables
+* Asset directories for images and fonts
 
 ## How It Works:
-Page Detection: The webpack config automatically scans src/pages/ for .twig files and creates corresponding HTML pages
-Template Inheritance: Uses Twig's extends and include system for maintainable templates
-Asset Pipeline: Processes and optimizes all assets (CSS, JS, images, fonts)
-Development Server: Hot reload with file watching for immediate feedback
-Production Build: Generates optimized, minified files ready for deployment
+1. **Page Detection:** The webpack config automatically scans <code>src/pages/</code> for <code>.twig</code> files and creates corresponding HTML pages
+2. **Template Inheritance:** Uses Twig's <code>extends</code> and <code>include</code> system for maintainable templates
+3. **Asset Pipeline:** Processes and optimizes all assets (CSS, JS, images, fonts)
+4. **Development Server:** Hot reload with file watching for immediate feedback
+5. **Production Build:** Generates optimized, minified files ready for deployment
 
 ## Complete Feature Set:
 ✅ Multi-page Architecture: Automatic page detection and generation
